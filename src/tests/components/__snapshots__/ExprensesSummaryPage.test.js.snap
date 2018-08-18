@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpensesSummaryPage correctly with 1 report tatling 1.95$ 1`] = `
+<div>
+  1 : $1.95
+</div>
+`;
+
+exports[`should render ExpensesSummaryPage correctly with 2 report tatling 1140$ 1`] = `
+<div>
+  2 : $1,140.00
+</div>
+`;
