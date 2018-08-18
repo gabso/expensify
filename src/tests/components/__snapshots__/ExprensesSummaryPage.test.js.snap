@@ -2,12 +2,26 @@
 
 exports[`should render ExpensesSummaryPage correctly with 1 report tatling 1.95$ 1`] = `
 <div>
-  1 : $1.95
+  <h1>
+    viewing 
+    1
+     
+    expense
+     totaling 
+    $1.95
+  </h1>
 </div>
 `;
 
 exports[`should render ExpensesSummaryPage correctly with 2 report tatling 1140$ 1`] = `
 <div>
-  2 : $1,140.00
+  <h1>
+    viewing 
+    2
+     
+    expenses
+     totaling 
+    $1,140.00
+  </h1>
 </div>
 `;
