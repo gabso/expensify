@@ -1,12 +1,5 @@
-
-
 export default (expenses) => {
-
-    const reducer = (accumulator, currentValue) =>  accumulator + currentValue.amount;
-
-
-    return expenses.reduce(reducer,0);
-
+  return expenses
+      .map((expense) => expense.amount)
+      .reduce((sum, value) => sum + value, 0);
 };
-
-
